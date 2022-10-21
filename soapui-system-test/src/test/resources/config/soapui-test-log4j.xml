@@ -12,13 +12,13 @@
 
     <Loggers>
 
-        <logger name="groovy.log" level="ERROR" additivity="false">
+        <Logger name="groovy.log" level="ERROR" additivity="false">
             <AppenderRef ref="CONSOLE"/>
-        </logger>
+        </Logger>
 
-        <root level="ERROR">
+        <Root level="ERROR">
             <AppenderRef ref="CONSOLE"/>
-        </root>
+        </Root>
     </Loggers>
 
 </Configuration>

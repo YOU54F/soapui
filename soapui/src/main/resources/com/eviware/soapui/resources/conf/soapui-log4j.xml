@@ -40,36 +40,36 @@
 
     </Appenders>
     <Loggers>
-        <logger name="groovy.log" level="INFO" additivity="false">
+        <Logger name="groovy.log" level="INFO" additivity="false">
             <AppenderRef ref="CONSOLE"/>
             <AppenderRef ref="GLOBAL_GROOVY_LOG" level="DEBUG"/>
-        </logger>
+        </Logger>
 
-        <logger name="com.eviware.soapui" level="DEBUG">
+        <Logger name="com.eviware.soapui" level="DEBUG">
             <AppenderRef ref="SOAPUI"/>
             <AppenderRef ref="CONSOLE"/>
-        </logger>
+        </Logger>
 
-        <logger name="soapui.errorlog" level="DEBUG">
+        <Logger name="soapui.errorlog" level="DEBUG">
             <AppenderRef ref="ERRORFILE"/>
-        </logger>
+        </Logger>
 
-        <logger name="org.apache.commons.httpclient" level="ERROR">
+        <Logger name="org.apache.commons.httpclient" level="ERROR">
             <AppenderRef ref="CONSOLE"/>
-        </logger>
+        </Logger>
 
-        <logger name="com.eviware.soapui.impl.wsdl.support.http.SoapUIMultiThreadedHttpConnectionManager" level="ERROR">
+        <Logger name="com.eviware.soapui.impl.wsdl.support.http.SoapUIMultiThreadedHttpConnectionManager" level="ERROR">
             <AppenderRef ref="ERRORFILE"/>
-        </logger>
+        </Logger>
 
-        <logger name="com.eviware.soapui.impl.wsdl.WsdlSubmit" level="ERROR">
+        <Logger name="com.eviware.soapui.impl.wsdl.WsdlSubmit" level="ERROR">
             <AppenderRef ref="ERRORFILE"/>
-        </logger>
+        </Logger>
 
-        <root level="INFO">
+        <Root level="INFO">
             <AppenderRef ref="FILE" level="INFO"/>
             <AppenderRef ref="WARN-CONSOLE" level="WARN"/>
-        </root>
+        </Root>
 
     </Loggers>
 
