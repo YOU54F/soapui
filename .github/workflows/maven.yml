@@ -25,6 +25,8 @@ jobs:
         cache: maven
     - name: install
       run: mvn test-compile dependency:resolve-plugins dependency:go-offline
-    - run: sudo apt-get install -y xvfb
-    - run: xfvb-run mvn clean package
+    - name: package
+      uses: GabrielBB/xvfb-action@v1
+      with:
+        run: mvn clean package
     
