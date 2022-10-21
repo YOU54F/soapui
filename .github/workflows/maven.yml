@@ -21,7 +21,7 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: '13'
-        distribution: 'temurin'
+        distribution: 'zulu'
         cache: maven
     - name: install
       run: mvn test-compile dependency:resolve-plugins dependency:go-offline
