@@ -40,7 +40,7 @@
 
         <analytics.version>5.5.3</analytics.version>
 
-        <groovy-all.version>3.0.6</groovy-all.version>
+        <groovy-all.version>3.0.13</groovy-all.version>
 
         <!-- org.apache.maven.plugins -->
         <maven-enforcer-plugin-version>3.0.0-M2</maven-enforcer-plugin-version>
@@ -63,7 +63,7 @@
         <exec-maven-plugin-version>1.6.0</exec-maven-plugin-version>
         <xmlbeans-maven-plugin-version>2.3.5-sb-fixed</xmlbeans-maven-plugin-version>
         <!-- org.openjfx-->
-        <javafx.version>16</javafx.version>
+        <javafx.version>17-ea+8</javafx.version>
         <javafx-base-version>${javafx.version}</javafx-base-version>
         <javafx-controls-version>${javafx.version}</javafx-controls-version>
         <javafx-graphics-version>${javafx.version}</javafx-graphics-version>
