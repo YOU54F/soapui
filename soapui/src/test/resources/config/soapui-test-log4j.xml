@@ -9,15 +9,15 @@
             <PatternLayout pattern="%d{ABSOLUTE} %-5p [%c{1}] %m%n"/>
         </Console>
     </Appenders>
-    <Logger>
+    <Loggers>
 
-        <logger name="groovy.log" level="ERROR" additivity="false">
+        <Logger name="groovy.log" level="ERROR" additivity="false">
             <AppenderRef ref="CONSOLE"/>
-        </logger>
+        </Logger>
 
-        <root level="ERROR">
+        <Root level="ERROR">
             <AppenderRef ref="CONSOLE"/>
-        </root>
-    </Logger>
+        </Root>
+    </Loggers>
 
 </Configuration>

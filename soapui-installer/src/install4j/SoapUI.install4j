@@ -76,24 +76,24 @@
       <dirEntry mountPoint="321" file="${compiler:DIST_ROOT}/bin" overrideFileMode="true" overrideOverwriteMode="true" overrideUninstallMode="true" excludeSuffixes="*.bat,*.sh" overrideDirMode="true" />
       <dirEntry mountPoint="318" file="${compiler:DIST_ROOT}/lib" overrideFileMode="true" overrideOverwriteMode="true" overrideUninstallMode="true" overrideDirMode="true">
         <exclude>
-          <entry location="javafx-base-16-win.jar" />
-          <entry location="javafx-controls-16-win.jar" />
-          <entry location="javafx-graphics-16-win.jar" />
-          <entry location="javafx-media-16-win.jar" />
-          <entry location="javafx-swing-16-win.jar" />
-          <entry location="javafx-web-16-win.jar" />
-          <entry location="javafx-base-16-linux.jar" />
-          <entry location="javafx-controls-16-linux.jar" />
-          <entry location="javafx-graphics-16-linux.jar" />
-          <entry location="javafx-media-16-linux.jar" />
-          <entry location="javafx-swing-16-linux.jar" />
-          <entry location="javafx-web-16-linux.jar" />
-          <entry location="javafx-base-16-mac.jar" />
-          <entry location="javafx-controls-16-mac.jar" />
-          <entry location="javafx-graphics-16-mac.jar" />
-          <entry location="javafx-media-16-mac.jar" />
-          <entry location="javafx-swing-16-mac.jar" />
-          <entry location="javafx-web-16-mac.jar" />
+          <entry location="javafx-base-17-win.jar" />
+          <entry location="javafx-controls-17-win.jar" />
+          <entry location="javafx-graphics-17-win.jar" />
+          <entry location="javafx-media-17-win.jar" />
+          <entry location="javafx-swing-17-win.jar" />
+          <entry location="javafx-web-17-win.jar" />
+          <entry location="javafx-base-17-linux.jar" />
+          <entry location="javafx-controls-17-linux.jar" />
+          <entry location="javafx-graphics-17-linux.jar" />
+          <entry location="javafx-media-17-linux.jar" />
+          <entry location="javafx-swing-17-linux.jar" />
+          <entry location="javafx-web-17-linux.jar" />
+          <entry location="javafx-base-17-mac.jar" />
+          <entry location="javafx-controls-17-mac.jar" />
+          <entry location="javafx-graphics-17-mac.jar" />
+          <entry location="javafx-media-17-mac.jar" />
+          <entry location="javafx-swing-17-mac.jar" />
+          <entry location="javafx-web-17-mac.jar" />
         </exclude>
       </dirEntry>
       <dirEntry mountPoint="399" file="${compiler:DIST_ROOT}/licenses" overrideFileMode="true" overrideOverwriteMode="true" overrideUninstallMode="true" overrideDirMode="true" />
@@ -165,24 +165,24 @@
       <dirEntry mountPoint="2392" file="${compiler:DIST_ROOT}/Tutorials" overrideFileMode="true" overrideOverwriteMode="true" overrideUninstallMode="true" overrideDirMode="true" />
       <fileEntry mountPoint="4418" file="${compiler:DIST_ROOT}/bin/soapui.log" fileMode="666" overrideFileMode="true" overrideOverwriteMode="true" overrideUninstallMode="true" />
       <fileEntry mountPoint="4418" file="${compiler:DIST_ROOT}/bin/soapui-errors.log" fileMode="666" overrideFileMode="true" overrideOverwriteMode="true" overrideUninstallMode="true" />
-      <fileEntry mountPoint="7719" file="${compiler:DIST_ROOT}/lib/javafx-base-16-win.jar" />
-      <fileEntry mountPoint="7719" file="${compiler:DIST_ROOT}/lib/javafx-controls-16-win.jar" />
-      <fileEntry mountPoint="7719" file="${compiler:DIST_ROOT}/lib/javafx-graphics-16-win.jar" />
-      <fileEntry mountPoint="7719" file="${compiler:DIST_ROOT}/lib/javafx-media-16-win.jar" />
-      <fileEntry mountPoint="7719" file="${compiler:DIST_ROOT}/lib/javafx-swing-16-win.jar" />
-      <fileEntry mountPoint="7719" file="${compiler:DIST_ROOT}/lib/javafx-web-16-win.jar" />
-      <fileEntry mountPoint="7969" file="${compiler:DIST_ROOT}/lib/javafx-base-16-linux.jar" />
-      <fileEntry mountPoint="7969" file="${compiler:DIST_ROOT}/lib/javafx-controls-16-linux.jar" />
-      <fileEntry mountPoint="7969" file="${compiler:DIST_ROOT}/lib/javafx-graphics-16-linux.jar" />
-      <fileEntry mountPoint="7969" file="${compiler:DIST_ROOT}/lib/javafx-media-16-linux.jar" />
-      <fileEntry mountPoint="7969" file="${compiler:DIST_ROOT}/lib/javafx-swing-16-linux.jar" />
-      <fileEntry mountPoint="7969" file="${compiler:DIST_ROOT}/lib/javafx-web-16-linux.jar" />
-      <fileEntry mountPoint="7970" file="${compiler:DIST_ROOT}/lib/javafx-base-16-mac.jar" />
-      <fileEntry mountPoint="7970" file="${compiler:DIST_ROOT}/lib/javafx-controls-16-mac.jar" />
-      <fileEntry mountPoint="7970" file="${compiler:DIST_ROOT}/lib/javafx-graphics-16-mac.jar" />
-      <fileEntry mountPoint="7970" file="${compiler:DIST_ROOT}/lib/javafx-media-16-mac.jar" />
-      <fileEntry mountPoint="7970" file="${compiler:DIST_ROOT}/lib/javafx-swing-16-mac.jar" />
-      <fileEntry mountPoint="7970" file="${compiler:DIST_ROOT}/lib/javafx-web-16-mac.jar" />
+      <fileEntry mountPoint="7719" file="${compiler:DIST_ROOT}/lib/javafx-base-17-win.jar" />
+      <fileEntry mountPoint="7719" file="${compiler:DIST_ROOT}/lib/javafx-controls-17-win.jar" />
+      <fileEntry mountPoint="7719" file="${compiler:DIST_ROOT}/lib/javafx-graphics-17-win.jar" />
+      <fileEntry mountPoint="7719" file="${compiler:DIST_ROOT}/lib/javafx-media-17-win.jar" />
+      <fileEntry mountPoint="7719" file="${compiler:DIST_ROOT}/lib/javafx-swing-17-win.jar" />
+      <fileEntry mountPoint="7719" file="${compiler:DIST_ROOT}/lib/javafx-web-17-win.jar" />
+      <fileEntry mountPoint="7969" file="${compiler:DIST_ROOT}/lib/javafx-base-17-linux.jar" />
+      <fileEntry mountPoint="7969" file="${compiler:DIST_ROOT}/lib/javafx-controls-17-linux.jar" />
+      <fileEntry mountPoint="7969" file="${compiler:DIST_ROOT}/lib/javafx-graphics-17-linux.jar" />
+      <fileEntry mountPoint="7969" file="${compiler:DIST_ROOT}/lib/javafx-media-17-linux.jar" />
+      <fileEntry mountPoint="7969" file="${compiler:DIST_ROOT}/lib/javafx-swing-17-linux.jar" />
+      <fileEntry mountPoint="7969" file="${compiler:DIST_ROOT}/lib/javafx-web-17-linux.jar" />
+      <fileEntry mountPoint="7970" file="${compiler:DIST_ROOT}/lib/javafx-base-17-mac.jar" />
+      <fileEntry mountPoint="7970" file="${compiler:DIST_ROOT}/lib/javafx-controls-17-mac.jar" />
+      <fileEntry mountPoint="7970" file="${compiler:DIST_ROOT}/lib/javafx-graphics-17-mac.jar" />
+      <fileEntry mountPoint="7970" file="${compiler:DIST_ROOT}/lib/javafx-media-17-mac.jar" />
+      <fileEntry mountPoint="7970" file="${compiler:DIST_ROOT}/lib/javafx-swing-17-mac.jar" />
+      <fileEntry mountPoint="7970" file="${compiler:DIST_ROOT}/lib/javafx-web-17-mac.jar" />
     </entries>
     <components>
       <component name="SoapUI" id="132" changeable="false">
