@@ -1,0 +1,655 @@
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>soapUI starterpage home | Appindex</title>
+    
+        <!-- TODO Do we need this? -->
+        <meta name="robots" content="noindex, nofollow" />
+        <meta name="author" content="SmartBear" />
+        <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate, max-age=0, post-check=0, pre-check=0" />
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta http-equiv="expires" content="-1" />
+        
+        <script src="./js/jquery-1.3.2.min.js"></script>
+    
+        <meta charset="utf-8">
+        <!--meta http-equiv="refresh" content="30" -->
+        <!-- Google Analytics/Universal Analytics-->
+        <!-- script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function()
+    { (i[r].q=i[r].q||[]).push(arguments)}
+    ,i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-92447-21', 'auto');
+    ga('send', 'pageview');
+    </script -->
+        <!-- Part v Begin --> 
+        <style>
+            /* Segoe UI */
+            @font-face {
+                font-family: 'Segoe UI';
+                src: url('./css/fonts/segoeui.eot');
+                src: local("Segoe UI"),
+                    local("Segoe"),
+                    local("Segoe WP"),
+                    url('./css/fonts/segoeui.eot?#iefix') format('embedded-opentype'),
+                    url('./css/fonts/segoeui.woff') format('woff'),
+                    url('./css/fonts/segoeui.svg#SegoeUI') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+        
+            /* Segoe UI Semibold */
+            @font-face {
+                font-family: 'Segoe UI Semibold';
+                src: url('./css/fonts/seguisb.eot');
+                src: local("Segoe Semibold"),
+                    local("Segoe WP Semibold"),
+                    url('./css/fonts/seguisb.eot?#iefix') format('embedded-opentype'),
+                    url('./css/fonts/seguisb.woff') format('woff'),
+                    url('./css/fonts/seguisb.svg#SegoeUISemibold') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+        
+            /* Segoe UI Bold */
+            @font-face {
+                font-family: 'Segoe UI Bold';
+                src: url('./css/fonts/segoeuib.eot');
+                src: local("Segoe Bold"),
+                    local("Segoe WP Bold"),
+                    url('./css/fonts/segoeuib.eot?#iefix') format('eot'),
+                    /* Wrong format will tell IE9+ to ignore and use WOFF instead. MSHAR-2822 */
+                    url('./css/fonts/segoeuib.woff') format('woff'),
+                    url('./css/fonts/segoeuib.svg#SegoeUIBold') format('svg');
+                font-weight: bold;
+                font-style: normal;
+            }
+        
+            /* Segoe UI Light */
+            @font-face {
+                font-family: 'Segoe UI Light';
+                src: url('./css/fonts/segoeuil.eot');
+                src: local("Segoe UI Light"),
+                    local("Segoe WP Light"),
+                    url('./css/fonts/segoeuil.eot?#iefix') format('embedded-opentype'),
+                    url('./css/fonts/segoeuil.woff') format('woff'),
+                    url('./css/fonts/segoeuil.svg#SegoeUILight') format('svg');
+                font-weight: normal;
+                font-style: normal;
+            }
+        
+            .v {
+                font-family: "Segoe UI", sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: #f5f6f8;
+                color: #8E99AB;
+            }
+            
+            .v a{
+                text-decoration: none;
+            }
+        
+            .v-page-header{
+                padding-top: 30px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                min-width: 920px;
+                height: 65px;
+                clear: both;
+            }
+            .v-page-header .v-header-logo{
+                width: 210px;
+                height: 65px;
+                margin: auto 0;
+            }
+            .v-page-body {
+                min-width: 920px;
+                padding-left: 20px;
+                clear: both;
+                height: 440px;
+                display: table;
+            }    
+            .v-column {
+                width: 25%;
+                min-width: 221px;
+                max-width: 320px;
+                float: left;
+                height: 440px;
+            }
+            .v-column.c-1 {
+                min-width: 315px;
+            }
+            .v-page-header .v-column {
+                width: 50%;
+                min-width: 340px;
+                max-width: 640px;
+                height: 65px;
+            }
+            .v-page-header .v-column.c-2{
+                text-align: right;
+            }
+            .v-page-header .v-column.c-2 .v-buttons-block{
+                padding-right: 20px;
+            }
+            .v-page-footer{
+                padding-top: 20px;
+                padding-left: 20px;
+                min-width: 920x;
+                height: 120px;
+                clear: both;
+            }
+            .v-page-footer.banner-1 .v-column{
+                width: 100%;
+                min-width: 920px;
+                max-width: 1280px;
+                height: 120px;
+            }
+            .v-page-footer.banner-2 .v-column{
+                width: 50%;
+                min-width: 400px;
+                max-width: 640px;
+                height: 120px;
+            }
+            .v-h1 {
+                font-family: "Segoe UI Semibold", sans-serif;
+                font-size: 18px;
+                padding-bottom: 10px;
+            }
+            .v-h2 {
+                font-family: "Segoe UI", sans-serif;
+                font-size: 16px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                color: #000000;
+            }
+            .v-link {
+                font-family: "Segoe UI Semibold", sans-serif;
+                cursor: pointer;
+                color: #00a0b4;
+                font-size: 18px;
+            }
+            
+            .v-link a{
+                color: #00a0b4;
+                text-decoration: none;
+            }
+        
+            .v-link-block {
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .v-link-block .v-link {
+                font-family: "Segoe UI", sans-serif;
+                font-size: 16px;
+                padding-bottom: 15px;
+            }
+        
+            .v-link-block .v-link:last-child {
+                padding-bottom: 0px;
+            }
+            .v-container.dark .v-link{
+                color: #50E4EA;
+            }
+            .v-container.dark .v-link a{
+                color: #50E4EA;
+            }
+            .v-link.small {
+                font-size: 16px;
+            }
+            .v-banner{
+                padding: 0;
+                height: 120px;
+                margin: 0 20px 0 0;
+                background-color: white;
+                color: white;
+                border: 1px solid transparent;
+                text-align: right;
+                cursor: pointer;
+            }
+            .v-banner .v-buttons-block{
+                padding-top: 70px;
+                padding-right: 20px;
+            }
+            .v-banner .v-button{
+                border-color: white;
+                background-color: transparent;
+            }
+            .v-banner .v-button .v-button-text{
+                color: white;
+            }
+            .v-container {
+                padding: 25px 20px;
+                margin-right: 20px;
+                margin-bottom: 10px;
+                background-color: white;
+                color: #8e99ab;
+                border: 1px solid #d8dde4;
+            }
+        
+            .v-container#v-launch {
+                height: 222px;
+            }
+        
+            .v-container.fill {
+                height: calc(100% - 50px - 2px);
+            }
+            
+            .v-container.fill2 {
+                height: calc(100% - 1px);
+            }
+            
+            .v-container.dark {
+                background-color: #173647;
+                border: 1px solid #173647;
+            }
+        
+            .v-caption {
+                font-size: 18px;
+                padding-bottom: 10px;
+            }
+        
+            .v-message {
+                font-size: 14px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        
+            .v-author {
+                font-size: 14px;
+                text-align: right;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+        
+            .v-container.dark .v-caption,
+            .v-container.dark .v-message,
+            .v-container.dark .v-author {
+                color: #FFFFFF;
+            }
+        
+            .top-shift-25 {
+                padding-top: 25px;
+            }
+            .v-buttons-block{
+                display: inline-block;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }		
+            .v-button {
+                cursor: pointer;
+                height: 30px;
+                line-height: 30px;
+                border: 1px solid #849AAB;
+                background-color: #FFFFFF;
+                -webkit-border-radius: 4px;
+                border-radius: 4px;
+                margin: auto;
+                display: flex;
+            }
+            
+            .v-button:hover{
+                color: #00A0B4;
+                border-color: #00A0B4;
+            }
+            .v-button.dark{
+                border: 1px solid #00A0B4;
+                background-color: #00A0B4;
+            }
+            .v-button.dark:hover{
+                background-color: #008A9C;            
+            }
+            .v-button.dark .v-button-text, .v-button.dark .v-button-text a{
+                color: #FFFFFF;
+            }
+            .v-button.big{
+                height: 40px;
+                line-height: 40px;
+            }
+            .v-button .v-button-text {
+                font-family: "Segoe UI Semibold", sans-serif;
+                color: #1F2834;
+                white-space: nowrap;
+                font-size: 14px;
+                margin: auto 15px;
+            }
+            .v-button.big .v-button-text {
+                font-size: 16px;
+            }        
+            /* Banners */
+            .user-banner-1{
+                background-image: url('./images/v/banners/banner.png');
+                background-repeat: no-repeat;
+            }
+            @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+                .v-container#v-launch {
+                    height: 266px;
+                }
+            }
+            #content {
+                margin: 0 auto;
+                max-width: 1280px;
+            }
+            .first-col {
+                width: 25%;
+                min-width: 255px;
+                display: table-cell;
+            }
+            .first-col .v-column {
+                width: 100% !important;
+            }
+            .next-cols {
+                width: auto;
+                display: table-cell;
+            }
+            .next-cols .v-column {
+                width: 33.33% !important;
+            }
+            .body-row {
+                display: table-row;
+            }
+            
+            /**
+            * Inducstry reports
+            */		
+            .industry-report {
+                background-size: cover;
+                background-position: center;
+                background-image: url('images/soapui-ad-photo-1.jpg');
+                padding: 0;
+    
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-end;			
+            }
+            
+            .industry-report .content {
+                width: 100%;
+                background: transparent linear-gradient(118deg, #173647 0%, #3A6177 100%) 0% 0% no-repeat padding-box;
+                opacity: 0.88;
+                padding: 20px;
+                backdrop-filter: blur(3px);
+            }
+            
+            .industry-report .label {
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 13px;
+                margin-bottom: 30px;
+                position: relative;
+            }
+            
+            .industry-report .label::after {
+                content: " ";
+                height: 2px;
+                background-color: #FCDB00;
+                width: 30px;
+                display: inline-block;
+                position: absolute;
+                left: 0px;
+                top: 30px;
+            }
+            
+            .industry-report .title {
+                color: #fff;
+                font-size: 15px;
+                margin-bottom: 15px;
+            }		
+            
+            .industry-report .text {
+                color: #fff;
+                font-size: 13.25px;
+                line-height: 20px;
+                margin-bottom: 15px;
+            }
+            
+            .industry-report a,
+            .industry-report a:hover {
+                text-decoration: none;
+                color: #04A9BC;
+                font-size: 14px;
+            
+            }
+            
+            
+            /**
+            * Case study
+            */
+            .case-study {
+                height: 100% !important;
+                padding: 0;
+                
+                background-size: contain;
+                background-position: 0 0;
+                background-image: url('images/soapui-ad-photo-2.jpg');
+            }
+            
+            .case-study .content-wrap {
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(180deg, #ffffff00 0%, white 50%, white 100%);
+                
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-end;				
+            }		
+            
+            .case-study .content {
+                width: 100%;
+                padding: 20px;
+            }		
+            
+            .case-study .label {
+                text-transform: uppercase;
+                color: #000;
+                font-size: 13px;
+                margin-bottom: 30px;
+                position: relative;
+            }
+            
+            .case-study .label::after {
+                content: " ";
+                height: 2px;
+                background-color: #FCDB00;
+                width: 30px;
+                display: inline-block;
+                position: absolute;
+                left: 0px;
+                top: 30px;
+            }
+            
+            .case-study .title {
+                color: #000;
+                font-size: 15px;
+                margin-bottom: 15px;
+            }		
+            
+            .case-study .text {
+                color: #566d7a;
+                font-size: 13.25px;
+                line-height: 20px;
+                margin-bottom: 15px;
+            }
+            
+            .case-study a,
+            .case-study a:hover {
+                text-decoration: none;
+                color: #04A9BC;
+                font-size: 14px;
+            }
+            
+            .plane-img {
+                padding: 0 !important;
+            }
+            
+            .plane-img.no-border {
+                border: none !important;
+            }
+            
+            .plane-img img {
+                object-fit: contain;
+                width: 100%;
+            }
+            
+            
+        </style>
+        <!-- Part v Finished --> 
+        <script>
+            $(document).ready(function() {
+                var image = document.createElement('img');
+                image.onload = function () {
+                    $("#banner-1").show();
+                };
+                image.src = './images/v/banners/banner.png';
+            });
+        </script>		
+    </head>
+    <body class="v">
+        <div id="content">
+            <div class="v-page-header">
+                <div class="v-column c-1">
+                    <div class="v-header-logo">
+                        <img src="./images/v/soapui-logo.png"/>
+                    </div>
+                </div>
+                <div class="v-column c-2">
+                    <div class="v-buttons-block">
+                        <a href="https://www.soapui.org/professional/soapui-pro/free-trial.html?utm_source=soapui&utm_medium=starterpage" target="_blank">
+                            <div class="v-button dark big" title="Try ReadyAPI" onClick="buttonCallback.sendTryProAnalytics('fromTopButton');">
+                                <span class="v-button-text">Try ReadyAPI</span>
+                            </div>
+                        </a>	
+                    </div>
+                </div>
+            </div>
+            <div class="v-page-body">
+                <div class="body-row">
+                    <div class="first-col">
+                        <div class="v-column c-1">
+                            <div class="v-container">
+                                <div class="v-link" title="New SOAP Project" onClick="buttonCallback.createSoapProject();">
+                                    <span>New SOAP Project</span>
+                                </div>
+                            </div>
+                            <div class="v-container">
+                                <div class="v-link" title="New REST Project" onClick="buttonCallback.createRestProject();">
+                                    <span>New REST Project</span>
+                                </div>
+                            </div>
+                            <div class="v-container fill plane-img no-border" id="v-launch">
+                            
+                                    <div class="content">
+                                        <a href="https://www.surveymonkey.com/r/MDHG9VF" target="_blank">
+                                        <img src="images/SAPI-2021-CTA.png" /></a>
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class=next-cols>
+                        <div class="v-column c-2">
+                            <div class="v-container fill2 plane-img">
+                                <div class="content-wrap">
+                                    <div class="content">
+                                        <a href="https://smartbear.com/blog/introducing-apache-kafka-event-driven-architecture/?utm_medium=product&utm_source=os-starter-pg&utm_campaign=readyapi-promo-pricing" target="_blank"><img src="images/kafka-ad-tall_min.png" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="v-column c-3">
+                            <div class="v-container fill">
+                                <div class="v-h1">
+                                    <span>Get Started with SoapUI Open Source</span>
+                                </div>
+                                <div class="v-link-block">
+                                    <div class="v-linkblock">
+                                        <div class="v-link" title="REST API Sample Project">
+                                            <a href="https://www.soapui.org/tutorials/rest-sample-project.html?utm_source=soapui&utm_medium=starterpage" target="_blank">
+                                                <span>REST API Sample Project</span>
+                                            </a>
+                                        </div>
+                                        <div class="v-link" title="SOAP API Sample Project">
+                                            <a href="https://www.soapui.org/tutorials/soap-sample-project.html?utm_source=soapui&utm_medium=starterpage" target="_blank">
+                                                <span>SOAP API Sample Project</span>
+                                            </a>
+                                        </div>
+                                        <div class="v-link" title="Amazon Web Service Sample Project">
+                                            <a href="https://www.soapui.org/tutorials/aws.html?utm_source=soapui&utm_medium=starterpage" target="_blank">
+                                                <span>Amazon Web Service Sample Project</span>
+                                            </a>	
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="v-column c-4">
+                            <div class="v-container fill">
+                                <div class="v-h1">
+                                    <span>Resources</span>
+                                </div>
+                                <div class="v-link-block">
+                                    <div class="v-linkblock">
+                                        <div class="v-link" title="Test a REST API">
+                                            <a href="https://www.soapui.org/getting-started/rest-testing.html#rest?utm_source=soapui&utm_medium=starterpage" target="_blank">
+                                                <span>Test a REST API</span>
+                                            </a>	
+                                        </div>
+                                        <div class="v-link" title="TEST A SOAP UI">
+                                            <a href="https://www.soapui.org/getting-started/soap-test.html" target="_blank">
+                                                <span>Test a SOAP API</span>
+                                            </a>
+                                        </div>
+                                        <div class="v-link" title="10 Tips for Beginners">
+                                            <a href="https://www.soapui.org/getting-started/10-tips-for-the-soapui-beginner.html?utm_source=soapui&utm_medium=starterpage" target="_blank">
+                                                <span>10 Tips for Beginners</span>
+                                            </a>	
+                                        </div>
+                                        <div class="v-link" title="Documentation">
+                                            <a href="https://www.soapui.org/soapui-projects/soapui-projects.html?utm_source=soapui&utm_medium=starterpage" target="_blank">
+                                                <span>Documentation</span>
+                                            </a>	
+                                        </div>
+                                        <div class="v-link" title="Community">
+                                            <a href="https://community.smartbear.com/t5/Open-Source-Tools-SoapUI-Swagger/ct-p/OpenSource?utm_medium=starterpage&utm_source=soapui" target="_blank">
+                                                <span>Community</span>
+                                            </a>	
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="v-buttons-block">
+                                    <a href="https://www.soapui.org/resources/training/on-demand-training.html?utm_source=soapui&utm_medium=starterpage" target="_blank">
+                                        <div class="v-button" title="Get Certified">
+                                            <span class="v-button-text">Get Certified</span>
+                                        </div>
+                                    </a>	
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="v-page-footer banner-1" style="display: none;" id="banner-1">
+                <div class="v-column c-1">
+                    <div class="v-banner user-banner-1" title="Austin API Summit 2019" onClick="window.open('https://nordicapis.com/events/austin-api-summit-2019/'); return false;">
+                        <div class="v-buttons-block">
+                            <script>
+                                function clickButtonFunction(e){
+                                    console.log('TEST');
+                                    e.stopPropagation(); 
+                                    window.open('https://nordicapis.com/events/austin-api-summit-2019/#register'); 
+                                    return false;
+                                }
+                            </script>
+                            <div class="v-button" title="Register" onClick="clickButtonFunction(event);">
+                                <span class="v-button-text">Register</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
