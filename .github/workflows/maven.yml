@@ -5,28 +5,26 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ "next" ]
+    branches: ['next', 'actions']
   pull_request:
-    branches: [ "next" ]
+    branches: ['next']
   workflow_dispatch:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Set up JDK 13
-      uses: actions/setup-java@v3
-      with:
-        java-version: '13'
-        distribution: 'zulu'
-        cache: maven
-    - name: install
-      run: mvn test-compile dependency:resolve-plugins dependency:go-offline
-    - name: package
-      uses: GabrielBB/xvfb-action@v1
-      with:
-        run: mvn clean package
-    
+      - uses: actions/checkout@v3
+      - name: Set up JDK 13
+        uses: actions/setup-java@v3
+        with:
+          java-version: '16'
+          distribution: 'termurin'
+          cache: maven
+      - name: install
+        run: mvn test-compile dependency:resolve-plugins dependency:go-offline
+      - name: package
+        uses: GabrielBB/xvfb-action@v1
+        with:
+          run: mvn clean package
